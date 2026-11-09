@@ -1,4 +1,4 @@
-const button = document.querySelector("button");
+const button = document.querySelector("#adicionar-carrinho);
 
 button.addEventListener("click", function(){
     alert("Produto adicionado ao carrinho") 
