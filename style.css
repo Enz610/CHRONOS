@@ -17,7 +17,7 @@ main {
 
 header { 
     display: flex;
-    gap: 100px;
+    gap: 120px;
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #D4AF37;
@@ -311,6 +311,10 @@ section > p {
 }
 
 .preco-antigo {
+    margin: 8px 0;
+    display: block;
+    width: fit-content;
+    text-decoration: line-through;
     color: #D4AF37;
     font-weight: bold;
     font-size: 16px;
@@ -318,6 +322,9 @@ section > p {
 }
 
 .preco-atual {
+    margin: 8px 0;
+    width: fit-content;
+    display: block;
     color: #D4AF37;
     font-weight: bold;
     font-size: 16px;
@@ -325,6 +332,9 @@ section > p {
 }
 
 .desconto {
+    margin: 8px 0;
+    width: fit-content;
+    display: block;
     background-color: #D4AF37;
     color: #080A0F;
     border: 1px solid #D4AF37;

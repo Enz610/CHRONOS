@@ -1,4 +1,4 @@
-const button = document.querySelector("#adicionar-carrinho);
+const button = document.querySelector("button");
 
 button.addEventListener("click", function(){
     alert("Produto adicionado ao carrinho") 
@@ -24,6 +24,13 @@ const produtos = {
         preco: 2199.90,
         descricao: "Elegância, resistência e durabilidade.",
         imagem: "Imagem do ChatGPT 6 de nov. de 2026, 16_46_12.jpg"
+    },
+
+    "CHRONOS Imperial": {
+        nome: "CHRONOS Imperial",
+        preco: 3299.90,
+        descricao: "Luxo e sofisticação em cada detalhe.",
+        imagem: "Imagem do ChatGPT 6 de nov. de 2026, 16_46_18.jpg"
     }
 };
 
